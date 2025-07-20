@@ -105,6 +105,7 @@ struct PersonDetailView: View {
             Button("Cancelar Préstamo", role: .destructive) {
                 if let loan = editingLoan {
                     loan.isActive = false
+                    NotificationManager.shared.cancelNotification(for: loan)
                     try? viewContext.save()
                 }
                 editingDebt = false

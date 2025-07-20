@@ -78,6 +78,9 @@ struct AddPersonView: View {
             newLoan.customDebtAmount = 0.0
             newLoan.person = newPerson
             
+            // Schedule notification for due date
+            NotificationManager.shared.schedulePaymentReminder(for: newLoan)
+            
             do {
                 try viewContext.save()
                 dismiss()

@@ -21,6 +21,7 @@
 		1D1E1F4C2C8F5B2000123456 /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F4B2C8F5B2000123456 /* PersonDetailView.swift */; };
 		1D1E1F4E2C8F5B3000123456 /* AddLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F4D2C8F5B3000123456 /* AddLoanView.swift */; };
 		1D1E1F502C8F5B3000123456 /* AddPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F4F2C8F5B3000123456 /* AddPaymentView.swift */; };
+		1D1E1F522C8F5B4000123456 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F512C8F5B4000123456 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		1D1E1F4B2C8F5B2000123456 /* PersonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
 		1D1E1F4D2C8F5B3000123456 /* AddLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoanView.swift; sourceTree = "<group>"; };
 		1D1E1F4F2C8F5B3000123456 /* AddPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentView.swift; sourceTree = "<group>"; };
+		1D1E1F512C8F5B4000123456 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				1D1E1F2D2C8F5A3F00123456 /* LoanManagerApp.swift */,
 				1D1E1F2F2C8F5A3F00123456 /* ContentView.swift */,
+				1D1E1F512C8F5B4000123456 /* NotificationManager.swift */,
 				1D1E1F402C8F5B0000123456 /* Models */,
 				1D1E1F3F2C8F5AF000123456 /* Views */,
 				1D1E1F362C8F5A4000123456 /* Persistence.swift */,
@@ -193,6 +196,7 @@
 				1D1E1F422C8F5B1000123456 /* Person.swift in Sources */,
 				1D1E1F4C2C8F5B2000123456 /* PersonDetailView.swift in Sources */,
 				1D1E1F2E2C8F5A3F00123456 /* LoanManagerApp.swift in Sources */,
+				1D1E1F522C8F5B4000123456 /* NotificationManager.swift in Sources */,
 				1D1E1F482C8F5B2000123456 /* DashboardView.swift in Sources */,
 				1D1E1F462C8F5B1000123456 /* Payment.swift in Sources */,
 			);
