@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D1E1F2E2C8F5A3F00123456 /* LoanManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F2D2C8F5A3F00123456 /* LoanManagerApp.swift */; };
+		1D1E1F302C8F5A3F00123456 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F2F2C8F5A3F00123456 /* ContentView.swift */; };
+		1D1E1F322C8F5A4000123456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1E1F312C8F5A4000123456 /* Assets.xcassets */; };
+		1D1E1F352C8F5A4000123456 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1E1F342C8F5A4000123456 /* Preview Assets.xcassets */; };
+		1D1E1F372C8F5A4000123456 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F362C8F5A4000123456 /* Persistence.swift */; };
+		1D1E1F3A2C8F5A4000123456 /* LoanManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F382C8F5A4000123456 /* LoanManager.xcdatamodeld */; };
+		1D1E1F422C8F5B1000123456 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F412C8F5B1000123456 /* Person.swift */; };
+		1D1E1F442C8F5B1000123456 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F432C8F5B1000123456 /* Loan.swift */; };
+		1D1E1F462C8F5B1000123456 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F452C8F5B1000123456 /* Payment.swift */; };
+		1D1E1F482C8F5B2000123456 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F472C8F5B2000123456 /* DashboardView.swift */; };
+		1D1E1F4A2C8F5B2000123456 /* AddPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F492C8F5B2000123456 /* AddPersonView.swift */; };
+		1D1E1F4C2C8F5B2000123456 /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F4B2C8F5B2000123456 /* PersonDetailView.swift */; };
+		1D1E1F4E2C8F5B3000123456 /* AddLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F4D2C8F5B3000123456 /* AddLoanView.swift */; };
+		1D1E1F502C8F5B3000123456 /* AddPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F4F2C8F5B3000123456 /* AddPaymentView.swift */; };
+		1D1E1F522C8F5B4000123456 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1F512C8F5B4000123456 /* NotificationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D1E1F2A2C8F5A3F00123456 /* LoanManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1E1F2D2C8F5A3F00123456 /* LoanManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanManagerApp.swift; sourceTree = "<group>"; };
+		1D1E1F2F2C8F5A3F00123456 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D1E1F312C8F5A4000123456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D1E1F342C8F5A4000123456 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D1E1F362C8F5A4000123456 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1D1E1F392C8F5A4000123456 /* LoanManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoanManager.xcdatamodel; sourceTree = "<group>"; };
+		1D1E1F412C8F5B1000123456 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1D1E1F432C8F5B1000123456 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		1D1E1F452C8F5B1000123456 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		1D1E1F472C8F5B2000123456 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1D1E1F492C8F5B2000123456 /* AddPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonView.swift; sourceTree = "<group>"; };
+		1D1E1F4B2C8F5B2000123456 /* PersonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
+		1D1E1F4D2C8F5B3000123456 /* AddLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoanView.swift; sourceTree = "<group>"; };
+		1D1E1F4F2C8F5B3000123456 /* AddPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentView.swift; sourceTree = "<group>"; };
+		1D1E1F512C8F5B4000123456 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D1E1F272C8F5A3F00123456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D1E1F212C8F5A3F00123456 = {
+			isa = PBXGroup;
+			children = (
+				1D1E1F2C2C8F5A3F00123456 /* LoanManager */,
+				1D1E1F2B2C8F5A3F00123456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D1E1F2B2C8F5A3F00123456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D1E1F2A2C8F5A3F00123456 /* LoanManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D1E1F2C2C8F5A3F00123456 /* LoanManager */ = {
+			isa = PBXGroup;
+			children = (
+				1D1E1F2D2C8F5A3F00123456 /* LoanManagerApp.swift */,
+				1D1E1F2F2C8F5A3F00123456 /* ContentView.swift */,
+				1D1E1F512C8F5B4000123456 /* NotificationManager.swift */,
+				1D1E1F402C8F5B0000123456 /* Models */,
+				1D1E1F3F2C8F5AF000123456 /* Views */,
+				1D1E1F362C8F5A4000123456 /* Persistence.swift */,
+				1D1E1F312C8F5A4000123456 /* Assets.xcassets */,
+				1D1E1F382C8F5A4000123456 /* LoanManager.xcdatamodeld */,
+				1D1E1F332C8F5A4000123456 /* Preview Content */,
+			);
+			path = LoanManager;
+			sourceTree = "<group>";
+		};
+		1D1E1F332C8F5A4000123456 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D1E1F342C8F5A4000123456 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D1E1F3F2C8F5AF000123456 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D1E1F472C8F5B2000123456 /* DashboardView.swift */,
+				1D1E1F492C8F5B2000123456 /* AddPersonView.swift */,
+				1D1E1F4B2C8F5B2000123456 /* PersonDetailView.swift */,
+				1D1E1F4D2C8F5B3000123456 /* AddLoanView.swift */,
+				1D1E1F4F2C8F5B3000123456 /* AddPaymentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D1E1F402C8F5B0000123456 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D1E1F412C8F5B1000123456 /* Person.swift */,
+				1D1E1F432C8F5B1000123456 /* Loan.swift */,
+				1D1E1F452C8F5B1000123456 /* Payment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D1E1F292C8F5A3F00123456 /* LoanManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D1E1F3D2C8F5A4000123456 /* Build configuration list for PBXNativeTarget "LoanManager" */;
+			buildPhases = (
+				1D1E1F262C8F5A3F00123456 /* Sources */,
+				1D1E1F272C8F5A3F00123456 /* Frameworks */,
+				1D1E1F282C8F5A3F00123456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoanManager;
+			productName = LoanManager;
+			productReference = 1D1E1F2A2C8F5A3F00123456 /* LoanManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D1E1F222C8F5A3F00123456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1D1E1F292C8F5A3F00123456 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 1D1E1F252C8F5A3F00123456 /* Build configuration list for PBXProject "LoanManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D1E1F212C8F5A3F00123456;
+			productRefGroup = 1D1E1F2B2C8F5A3F00123456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D1E1F292C8F5A3F00123456 /* LoanManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D1E1F282C8F5A3F00123456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1E1F352C8F5A4000123456 /* Preview Assets.xcassets in Resources */,
+				1D1E1F322C8F5A4000123456 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D1E1F262C8F5A3F00123456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1E1F372C8F5A4000123456 /* Persistence.swift in Sources */,
+				1D1E1F442C8F5B1000123456 /* Loan.swift in Sources */,
+				1D1E1F4A2C8F5B2000123456 /* AddPersonView.swift in Sources */,
+				1D1E1F4E2C8F5B3000123456 /* AddLoanView.swift in Sources */,
+				1D1E1F302C8F5A3F00123456 /* ContentView.swift in Sources */,
+				1D1E1F3A2C8F5A4000123456 /* LoanManager.xcdatamodeld in Sources */,
+				1D1E1F502C8F5B3000123456 /* AddPaymentView.swift in Sources */,
+				1D1E1F422C8F5B1000123456 /* Person.swift in Sources */,
+				1D1E1F4C2C8F5B2000123456 /* PersonDetailView.swift in Sources */,
+				1D1E1F2E2C8F5A3F00123456 /* LoanManagerApp.swift in Sources */,
+				1D1E1F522C8F5B4000123456 /* NotificationManager.swift in Sources */,
+				1D1E1F482C8F5B2000123456 /* DashboardView.swift in Sources */,
+				1D1E1F462C8F5B1000123456 /* Payment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D1E1F3B2C8F5A4000123456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D1E1F3C2C8F5A4000123456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D1E1F3E2C8F5A4000123456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoanManager/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loanmanager.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D1E1F3F2C8F5A4000123456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoanManager/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loanmanager.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D1E1F252C8F5A3F00123456 /* Build configuration list for PBXProject "LoanManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1E1F3B2C8F5A4000123456 /* Debug */,
+				1D1E1F3C2C8F5A4000123456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D1E1F3D2C8F5A4000123456 /* Build configuration list for PBXNativeTarget "LoanManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1E1F3E2C8F5A4000123456 /* Debug */,
+				1D1E1F3F2C8F5A4000123456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1D1E1F382C8F5A4000123456 /* LoanManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1D1E1F392C8F5A4000123456 /* LoanManager.xcdatamodel */,
+			);
+			currentVersion = 1D1E1F392C8F5A4000123456 /* LoanManager.xcdatamodel */;
+			path = LoanManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1D1E1F222C8F5A3F00123456 /* Project object */;
+}
